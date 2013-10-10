@@ -27,7 +27,12 @@
     class Vertex{
 
         public  $id;
+		public	$sign = false;
         private $data;
+		
+		public function Vertex($data = null){
+			$this->data = $data;
+		}
 
         public function id($id = null){
             if($id === null)
@@ -110,8 +115,6 @@
         protected $incidencyMatrix  = array(array());
         
 		// ROUTE ALGORITHM
-		private $queue	            = array();
-		private $paths				= array();
 		private $walks				= array();
         
         public function Graph($id){
@@ -194,6 +197,9 @@
             $incoming = array();
             
             foreach($this->incidencyMatrix as $id => $vertex){
+				if($id == $vx->id)
+					continue;
+					
                 if(isset($vertex[$vx->id]))
                     $incoming[$id] = $this->vertices[$id];
             }                
@@ -207,7 +213,7 @@
             
             $incoming = array();
             
-            foreach($this->incidencyMatrix as $id => $vertex){
+            foreach($this->incidencyMatrix as $id => $vertex){					
                 if(isset($vertex[$vx->id]))
                     $incoming[$id] = $this->incidencyMatrix[$id][$vx->id];
             }                
@@ -234,8 +240,12 @@
             
             $outcoming = array();
             
-            foreach($this->incidencyMatrix[$vx->id] as $id => $weight)
-                $outcoming[$id] = $this->vertices[$id];
+            foreach($this->incidencyMatrix[$vx->id] as $id => $weight){
+				if($id == $vx->id)
+					continue;
+					
+				$outcoming[$id] = $this->vertices[$id];
+			}
             
             return $outcoming;
         }
@@ -268,26 +278,54 @@
 			}
 			
 			
-        }
-			
+        }			
 
         public function walk(Vertex $from, Vertex $to){
-            
-			$queue[] = $from;			
-				
-			
+           
+			$queue[] = $from;
+			$walks = array_fill_keys(array_keys($this->vertices), array('cost' => -1, 'from' => null));
+			$walks[$from->id]['cost'] = 0;
 				
 			while(count($queue) > 0){
-				$vx = array_shift($queue);
+				$vx			= array_shift($queue);
+				$vx->sign	= true;			
 				
-				echo count($this->queue);
+				$neighbors	= $this->getOutcomingNeighbors($vx);
+					
+				foreach($neighbors as $neighbor){
+					if(!$neighbor->sign){
+						$queue[] = $neighbor;		
 				
-				//$neighbors = $this->getOutcomingNeighbors($vx);
-				
+						if(($walks[$neighbor->id]['cost'] < 0) || ($this->incidencyMatrix[$vx->id][$neighbor->id] < $walks[$neighbor->id]['cost'])){
+							$walks[$neighbor->id]['from'] = $vx->id;
+							$walks[$neighbor->id]['cost'] = $this->incidencyMatrix[$vx->id][$neighbor->id];
+						}
+							
+						/*
+						echo 'ID: '.$neighbor->id.'<br/>';
+						echo 'CURRENT COST: '.($walks[$neighbor->id]['cost']).'<br/>';
+						echo 'CURRENT PARENT: '.($walks[$neighbor->id]['from']).'<br/>';
+						echo 'COST FROM '.$vx->id.' VERTEX: '.($this->incidencyMatrix[$vx->id][$neighbor->id]);
+						echo '<hr/>';
+						*/
+					}
+				}	
 			}
 			
-
-            
+			printr($walks);
+			
+			
+			$i = $to->id;
+			
+			while($i != $from->id){
+				$path[] = $this->vertices[$i]->getData();
+				$i = $walks[$i]['from'];
+			}	
+			
+			$path[] = $from->getData();
+			
+			return array_reverse($path);
+			
         }
     }
 
@@ -298,17 +336,27 @@
 $G = new Graph('map');
 
 $G->addVertices(array(
-    $vxA = new Vertex(),
-    $vxB = new Vertex(),
-    $vxC = new Vertex(),
-    $vxD = new Vertex()
+    $vxA = new Vertex('A'),
+    $vxB = new Vertex('B'),
+    $vxC = new Vertex('C'),
+    $vxD = new Vertex('D'),
+	$vxE = new Vertex('E'),
+    $vxF = new Vertex('F'),
+    $vxG = new Vertex('G'),
+    $vxH = new Vertex('H')
 ));
 
 $G->addArcs(array(
-    $arcA = new Edge($vxA, $vxB, 2),
-    $arcB = new Arc($vxB, $vxC, 1),
-    $arcC = new Edge($vxC, $vxA, 10),
-    $arcD = new Arc($vxD, $vxC, 1)
+    $arcA = new Edge($vxA, $vxB, 10),
+	$arcC = new Edge($vxA, $vxC, 8),
+	$arcI = new Arc($vxA, $vxH, 1),
+	$arcI = new Arc($vxH, $vxE, 2),
+	$arcE = new Arc($vxE, $vxC, 4),
+	$arcF = new Arc($vxC, $vxF, 5),
+    $arcB = new Arc($vxB, $vxC, 9),   
+    $arcD = new Arc($vxD, $vxC, 7),	   
+    $arcG = new Arc($vxC, $vxG, 4),
+    $arcH = new Arc($vxG, $vxD, 3)			
 ));
 
 $P = new Path($G, array(
@@ -319,7 +367,7 @@ $P = new Path($G, array(
     $vxB
 ));
 
-/*
+
 echo 'ADJACENCY LIST';
 printr($G->getAdjacencyList());
 echo '<hr/>';
@@ -332,7 +380,7 @@ echo '<hr/>';
 echo 'OUTCOMING NEIGHBORS';
 printr($G->getOutcomingNeighbors($vxA));
 echo '<hr/>';
-*/
+
 /*
 echo 'PATH';
 printr($P);
@@ -341,6 +389,6 @@ echo 'WALK';
 printr($P->walk());
 */
 
-var_dump($G->walk($vxA, $vxC));
+printr($G->walk($vxA, $vxF));
 
 ?>
