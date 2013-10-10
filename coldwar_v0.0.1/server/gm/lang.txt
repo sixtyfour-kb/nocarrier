@@ -1,0 +1,104 @@
+COMMANDS
+
+whereis( subject )
+whois( subject )
+
+instruction[ subject time place action target until ]
+
+person -extends automaton- {
+
+	event {
+		person arrives
+		person leaves
+		person attempts	[action]
+		person succeed	[action]
+		person fail		[action]
+		person dies
+		
+		person being contacted
+		person being watched
+		person being followed
+		person being attacked
+		
+	}
+	
+	state {
+		dead
+		unconscious
+		senseless
+		watched
+		followed
+		attacked
+		
+	}
+}
+
+object{
+	
+	event {	
+		object arrives
+		object leaves
+		object destroys
+	}
+	
+	state {
+		broken
+		
+	}
+	
+		
+}
+
+
+
+automaton {
+
+	InstPnt = 0
+
+	instructs[ InstPnt ] {
+		0: inst
+		1: inst
+		n: ...
+	}
+	
+	mem {
+		address obj a
+		address obj b
+		address obj ...
+	}
+	
+	exec( InstPnt )
+	
+}
+
+actions {
+	contact		( person )
+	follow		( person )
+	watch		( person )
+	photograph	( person )
+	assault		( person )
+	knockout	( person )
+	kill		( person )
+	hold		( person )
+	capture		( person )
+	dead-drop	( object, spot )
+	retrieve	( spot )
+	destroy		( object )
+	copy		( document )
+	convert		( document, format )
+	encode		( document, encoding )
+	compose		( data, format, encoding )
+	signal		( signal, place | object | self )
+	signaloff	( signal, place | object | self )
+}
+
+
+action +--> do
+       |
+	   +--> prevent
+	   
+	   
+action intent	effect
+action do		effect
+action prevent	action
+	   
