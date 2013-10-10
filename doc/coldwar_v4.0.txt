@@ -1,0 +1,1322 @@
+
+------------------------------------------------------------------------
+	COLD WAR
+	'They know we know they know...'
+------------------------------------------------------------------------
+
+		
+		
+		...After a bit of reflection, the Prime Minister - 
+		crossing the stage - calls on the Soviet Ambassador. 
+		After some preliminaries, he says to the Soviet 
+		Ambassador, "They know." The Soviet Ambassador replies 
+		calmly, "We know they know." Back to the American 
+		Ambassador goes Ustinov. "They know you know," he says 
+		conspiratorially. The American Ambassador smiles 
+		confidently. "We know they know we know," he answers. 
+		Ustinov returns to the Soviet Ambassador. "They know you 
+		know they know," he says. To this the Soviet Ambassador 
+		replies, triumphantly, "We know they know we know they 
+		know." Once again the Prime Minister calls on the 
+		American Ambassador. "They know you know they know you 
+		know," he says, weary and curious at the same tune. The 
+		American Ambassador repeats it after him, counting on 
+		his fingers. 
+		"What? They know THAT!?" he suddenly cries in horror. 
+			
+		ROMANOFF AND JULIET 
+		Perter Ustinov, Universal Studios 1961
+		
+		
+	 
+		«Être gouverné, c'est être gardé à vue, inspecté, 
+		espionné, dirigé, légiféré, réglementé, parqué, 
+		endoctriné, prêché, contrôlé, estimé, apprécié, 
+		censuré, commandé, par des êtres qui n'ont ni le 
+		titre, ni la science, ni la vertu... Être gouverné, 
+		c'est être, à chaque opération, à chaque 
+		transaction, à chaque mouvement, noté, enregistré, 
+		recensé, tarifé, timbré, toisé, coté, cotisé, 
+		patenté, licencié, autorisé, apostillé, admonesté, 
+		empêché, réformé, redressé, corrigé. C'est, sous 
+		prétexte d'utilité publique, et au nom de l'intérêt 
+		général, être mis à contribution, exercé, 
+		rançonné, exploité, monopolisé, concussionné, 
+		pressuré, mystifié, volé ; puis, à la moindre 
+		résistance, au premier mot de plainte, réprimé, 
+		amendé, vilipendé, vexé, traqué, houspillé, 
+		assommé, désarmé, garrotté, emprisonné, fusillé, 
+		mitraillé, jugé, condamné, déporté, sacrifié, 
+		vendu, trahi, et pour comble, joué, berné, outragé, 
+		déshonoré. Voilà le gouvernement, voilà sa justice, 
+		voilà sa morale!» 
+
+		PIERRE JOSEPH PROUDHON - 1809/1865		
+       
+		
+		
+		«Ser gobernado es ser observado, inspeccionado, 
+		espiado,dirigido, sometido a la ley, regulado, 
+		escriturado, adoctrinado, sermoneado, 
+		verificado,estimado, clasificado según tamaño, 
+		censurado y ordenado por seres que no poseen los 
+		títulos, el conocimiento ni las virtudes apropiadas 
+		para ello. Ser gobernado significa, con motivo de cada 
+		operación, transacción o movimiento, ser anotado, 
+		registrado, contado, tasado, estampillado, medido, 
+		numerado, evaluado, autorizado, negado, autorizado, 
+		endosado, amonestado, prevenido, reformado, reajustado y 
+		corregido. Es, bajo el pretexto de la utilidad pública 
+		y en el nombre del interés general, ser puesto bajo 
+		contribución, engrillado, esquilado, estafado, 
+		monopolizado, desarraigado, agotado, embromado y robado 
+		para, a la más ligera resistencia, a la primera palabra 
+		de queja, ser reprimido, multado, difamado, fastidiado, 
+		puesto bajo precio, abatido, vencido, desarmado, 
+		restringido, encarcelado, tiroteado, maltratado, 
+		juzgado, condenado, desterrado, sacrificado, vendido, 
+		traicionado, y, para colmo de males, ridiculizado, 
+		burlado, ultrajado y deshonrado.
+		¡Eso es el gobierno, esa es su justicia, esa es su 
+		moral!».
+		
+		PIERRE JOSEPH PROUDHON - 1809/1865
+
+
+	
+------------------------------------------------------------------------
+	OVERVIEW
+------------------------------------------------------------------------
+
+COLD WAR es un juego de estrategia, single/multiplayer, por turnos
+simultáneos, ambientado durante la guerra fria entre 1961 y 1989.
+
+Cada jugador controla una sección de inteligencia de una agencia a
+elección (CIA, KGB, STASSI, SDECE, MI6)
+
+Los países participantes están alineados en bloques:
++ BLOQUE OCCIDENTAL:	Estados Unidos, Reino Unido y Francia.
++ BLOQUE ORIENTAL:		URSS y Alemania Oriental.
+
+Cada país tiene tres áreas generales de interés: científico, militar y
+político. Estas a su vez abarcan áreas mas especificas como económico,
+industrial, tecnógico, etc. Cada área general tiene un score.
+
+El objetivo de los países del bloque oriental es por un lado lograr un
+gobierno comunista pro-soviético en cualquiera de los 3 países del bloque 
+oriental. Adicionalmente, cada país del bloque intentará mantener su 
+superioridad entre los demás paises del bloque.
+
+El objetivo de los paises del bloque occidental es lograr un gobierno
+capitalista en cualquiera de los 2 países del bloque oriental.
+El objetivo adicional y particular de Alemania Oriental es mantener su
+independencia política, manteniendo una diferencia positiva en el score
+político con respecto a la URSS.
+
+El modo de obtener puntos en cada área es obtener secretos de estado de
+los países rivales manteniendo redes de espías en ellos.
+
+Ambos bloques deben evitar que la diferencia entre bloques en el score 
+militar sea demasiado alta. Pasado cierto margen de seguridad, cada día
+del juego hay una chance de guerra nuclear. Cuanto más grande es la
+diferencia, mas alta es la probabilidad del evento.
+Si se llega a una guerra nuclear, es game over para todos.
+
+
+
+------------------------------------------------------------------------
+	GAME CONCEPTS
+------------------------------------------------------------------------
+
+
+INFORMACION
+-----------
+La información es la entidad más importante y detallada del juego.
+
+En el juego la información puede ser obtenida; ya sea legal o 
+ilegalmente, copiada, destruida, transmitida por diversos medios (p2p,
+carta, radio, teléfono...)
+Además puede ser falseada, truncada o totalmente apócrifa.
+
+El jugador percibe lo que sucede sólo a través de la informacion que 
+recibe de los personajes en el juego. Pero ésta información no llega
+hasta el jugador por si sola, sino que él debe desplegar y mantener 
+canales de comunicación por los que llegue.
+
+INSTRUCCIONES A LOS PCC
+-----------------------
+Dar instrucciones a un PCC implica los siguientes pasos y alternativas:
+
+1)	Crear las instrucciones propiamente dichas.
+
+2)	Una vez creadas, las instrucciones son información que, como toda
+	información en el juego, puede:
+	a)	trasladarse a papel como un documento, o en microfilm
+	b)	Transmitirse por radio
+	c)	Transmitirse por teléfono
+	d)	Transmitirse por telex a una estación que posea uno. El receptor
+		tendrá las ordenes en papel
+	e)	Transmitirse verbalmente de persona a persona
+	f)	Encriptarse / decriptarse
+
+3)	Si las órdenes va a enviarse por radio, el destinatario deberá tener
+	el equipamiento necesario para recibir la señal e instrucciones 
+	previas sobre día, hora y frequencia en la que escuchar.
+	
+4)	Si las órdenes están en un soporte como papel o microfilm, pueden
+	entregarse en mano al destinatario o entregarse ocultas dentro de
+	otro objeto.
+	
+5)	Si se desea, las órdenes pueden archivarse. Esto crea un archivo en
+	el lugar, si no existía antes.
+
+6)	Pueden combinarse todos los métodos anteriores y agregarse todos los
+	niveles de indirección que se desee, por ejemplo:
+	Dando instrucciones a un mensajero para llevar el mensaje a una 
+	estación de radio, encriptarlo, transmitirlo a otra estación junto
+	con órdenes adicionales para el personal de las segunda estación 
+	para que transmita por teléfono el mensaje a un agente que a su vez
+	deberá transmitirlo en persona al destinatario final...
+	
+De la misma manera, las actividades de los personajes y su resultado son
+información a las que se aplica las mismas reglas.
+
+El jugador no sabrá nada del resultado de sus órdenes a menos que quien
+las llevó a cabo, o cualquier PCC que tenga esa información, haga llegar
+el reporte de vuelta al jugador, o sea contactado por un agente con
+órdenes de recibir el reporte y transmitirlo de vuelta por cualquiera de
+los medios comentados. 
+
+ 
+
+IDENTIDAD Y VISIBILIDAD
+-----------------------
+Si un agente de la KGB estuviera tomando el té a dos mesas de distancia 
+de un agente de la CIA, éste no tendría ningun registro del suceso ni
+interactuaría de ninguna modo con el agente rival, a menos que supiera 
+de su identidad con anterioridad.
+
+La identidad de los personajes es un tipo de información que permite
+verlos en el entorno de juego e interactuar con ellos, de otro modo son
+invisibles. 
+Para que un PCC reconozca a otro personaje es necesario presentarle una
+fotografía del objetivo y asignarle un nombre o criptónimo real, o una
+denominación interna provisoria.
+
+
+
+PERSISTENCIA DE LA INFORMACION
+------------------------------
+La información no perdura sin una entidad física que la contenga, sea 
+un documento en manos de una persona, o en su memoria, en un archivo, en 
+un maletín enterrado en un bosque o una caja fuerte.
+Cuando una pieza de información ya no es referida por ninguna de éstas
+instancias, ésta desaparece.
+
+
+
+INFORMACION EMERGENTE
+---------------------
+Las acciones de los personajes, PCC y NPC, producen información.
+
+
+Por ejemplo, las órdenes de IVAN son tomar el metro en la estación A
+hasta la estación B, de allí llegar hasta Alezander Platz y obtener
+un reporte de las actividades de HANS. 
+
+IVAN, al cumplir las órdenes del jugador, produce sucesos como los 
+presentados en la tabla que se traducen en unidades de información. 
+
+   +---------------------------------------------------------+
+   | time  | place           | subject | action     | object |
+   |---------------------------------------------------------|
+   | 20:15 | Metro Station A | IVAN    | take metro | -      |
+   | 20:45 | Metro Station B | IVAN    | wait       | -      |
+   | 21:30 | Alexander Platz | IVAN    | wait       | HANS   |
+   | 21:45 | Alexander Platz | IVAN    | talks      | HANS   |
+   +---------------------------------------------------------+
+
+Los personajes, tienen memoria de sus propias acciones, pero además
+memorizan los sucesos que presencian y los que llegan a conocer por 
+medio de otros personajes y medios de transmisión de información.
+
+Los sucesos de la tabla podrían corresponder al registro que el mismo
+IVAN tiene de sus propias actividades. 
+Suponiendo que IVAN estaba siendo seguido por JOHN, la siguiente tabla
+podría ser el registro de JOHN de los mismos hechos.
+
+	+---------------------------------------------------------+
+	| time  | place           | subject | action     | object |
+	|---------------------------------------------------------|
+	| 20:45 | Metro Station B | tuna  	| wait       | ? 	  |
+	| 21:30 | Alexander Platz | tuna   	| wait       | ? 	  |
+	| 21:45 | Alexander Platz | tuna   	| talks      | HANS	  |
+	+---------------------------------------------------------+
+
+JOHN comienza a seguir a IVAN en la estación B, de modo que su registro 
+de sucesos no tiene ninguna información sobre IVAN tomando el metro en 
+la estación A. 
+
+Además, la única información que JOHN tienen sobre IVAN es una foto 
+de referencia. No conoce el criptónimo IVAN con el que lo conoce la KGB 
+y menos aún su nombre real. 
+
+Por lo que en sus registros, JOHN se refiere a IVAN con el nombre 'tuna' 
+con el que se lo denomina provisoriamente en la CIA.
+
+Otro personaje podría llegar a conocer un fragmento o todo el registro
+por medio del mismo JOHN, por cualquiera que sea el motivo.
+
+DESINFORMACION
+--------------
+
+JOHN podría tener órdenes de omitir sistemáticamente cualquier mención
+sobre HANS y además podría tener órdenes específicas de falsear estos
+hechos. 
+La agencia (el jugador controlando la CIA) fabrica una versión diferente
+de los hechos que JOHN puede 'filtrar' si se dá la oportunidad. 
+La agencia también puede fabricar distintas historias para distintos
+destinatarios.
+
+	+------------------------------------------------------------+
+	| time  | place                | subject  | action | object  |
+	|------------------------------------------------------------|
+	| 20:45 | Metro Station B      | goldfish | talks  | PAVLOV  |
+	| 21:30 | Alexander Platz      | goldfish | wait   | ? 	     |
+	| 22:00 | Alexander Platz Café | goldfish | talks  | herring |
+    +------------------------------------------------------------+
+
+Los hechos fabricados por la agencia son sustancialmente distintos.
+
+A partir del momento que JOHN es presentado con diferentes versiones de
+un hecho, éste recordará las diferentes versiones y presentará una u
+otra, dependiendo las directivas que se le hayan dado.
+
+Sin embargo, JOHN tendrá como genuina solo úna de las versiones. En el
+caso del ejemplo, JOHN observó de primera mano los hechos, por lo que su
+propia versión es la que considerará verdadera.
+
+Si 2 versiones de un suceso son conflictivas, es decir mutuamente
+excluyentes, JOHN, siguiendo un orden de prioridades, creerá en:
+
+1-	La versión observada por él mismo.
+2-	La versión obtenida de su agencia (el jugador)
+3-	La versión obtenida de un superior (PPC)
+4-	La versión obtenida de un igual (PPC)
+5-	La versión obtenida de un espía propio (PPC)
+6-	La versión obtenida de un casual (NPC)
+7-	La versión obtenida de un espía rival
+8-	La versión obtenida de un agente rival de igual rango
+9-	La versión obtenida de un agente rival de rango superior
+10-	La versión obtenida de una agencia rival
+
+En caso de obtener 2 versiones conflictivas de la misma fuente,
+considerará las dos como falsas.
+
+Lo que JOHN crea como cierto es importante en el caso de ser interrogado
+o reclutado por una agencia rival. En estas situaciónes, JOHN intentará
+sostener todo lo posible las versiones que cree falsas, si está siendo
+interrogado, y si voluntariamente traiciona a su agencia entregará la
+versión que cree cierta.
+
+Por lo puede darse la situación de dar intencionadamente desinformación
+a un agente propio y que éste filtre ésta información a una agencia 
+rival creyendo que está dando información genuina.
+
+La utilidad de generar desinformación y los detalles de la misma
+dependen del contexto y la dinámica de cada partida.
+
+ARCHIVO
+-------
+
+
+
+
+
+
+TIEMPO
+------
+El tiempo del juego consiste en dias de 24h, agrupadas en 3 secciones de 
+8h y la fracción mínima de tiempo es de 15'
+
+        00:00h          08:00h          16:00h          24:00h
+          ^               ^               ^               ^
+          |               |               |               |
+          |-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+          | | | | | | | | | | | | | | | | | | | | | | | | |
+    +------+| | | | | | | | | | | | | | | | | | | | | | | |
+    |     | | | | | | | | | | | | | | | | | | | | | | | | |
+    |     +-+-+-+-+-+-|-+-+-+-+-+-+-+-|-+-+-+-+-+-+-+-|-+-+
+    |         night   |    morning    |      noon     |
+    |                 v               v               v
+    |               06:00h          14:00h          22:00h
+    |     
+    |     0' 15' 30' 45' 60'
+    |     ^   ^   ^   ^   ^
+    |     |   |   |   |   |
+    |     +---|---|---|---|
+    |     |   |   |   |   |
+    +-->  |   |   |   |   |
+          |   |   |   |   |
+          +---+---+---+---+	
+		  
+El juego transcurre por turnos donde los jugadores, simultáneamente, 
+preparan las órdenes para sus unidades, para los turnos que van desde 
+el inmediato próximo hasta cualquier turno futuro. 
+
+Las acciones que se asignan a las unidades insumen un tiempo 
+determinado, siempre múltiplos de 15', que es la unidad de tiempo. 
+Algunas se consideran de duración 0, como hacer una llamada telefónica.
+
+Las órdenes se construyen como un diagrama de flujo y una vez compuestas
+son representadas en el juego como un documento. 
+
+Como otros documentos en el juego, éste podrá ser archivado, 
+transmitido por radio, teléfono, copiado, enviado por correo y por 
+supuesto, al ser órdenes, podrá ser entregado por cualquiera de estos 
+medios a una persona controlada por la agencia para que las lleve a 
+cabo. Ejemplo: 
+
++------------+        +-----+               +--------------------+
+|INSTRUCTIONS|        |19:15|               |PROCEDURE:'delivery'|
+|ASSET A     |        |-----|               |--------------------|
++------------+        |HOME |               |if found 'xyz' mark |
+                      +--+--+               +---------+----------+
+                         |                   TRUE     |     FALSE
+                     +---v---+                 +------+-------+
+                     | 20:15 |                 |              |
+                     |-------|                 v              v
+                     | METRO |    if         leave       make delivery
+                     |STATION| followed      signal      to AGENT B
+                     |   A   |               'abc'       wait 45'
+                     +---+---+                 +
+          TRUE           |          FALSE      |
+            +------------+------------+        v
+            |                         |      return
+        +---v--+                      v       home
+        |wander|                   +-----+
+        |until |                   |take |
+        |21:15 |                   |metro|
+        +---+--+                   +--+--+
+   SUCCEED  |   FAIL                  |
+      +-----+----+                +---v---+
+      |          |                | 20:45 |
+   +--v--+       v                |-------|
+   |take |   phone call 354       | METRO | wait
+   |metro|   receive              |STATION| until
+   +--+--+   instructions         |   B   | 21:15
+      |                           +---+---+
++-----v-----+                         |
+|21:00~21:45|                      +--v--+
+|-----------|                      |21:30| FOLLOW
+|   METRO   |                      |-----| PROCEDURE
+|  STATION  |                      |PARK | 'delivery'
+|     B     |                      +-----+
++-----+-----+
+      |
++-----v-----+
+|21:15~22:00| FOLLOW
+|-----------| PROCEDURE
+|   PARK    | 'delivery'
++-----------+
+
+En este caso el espía A debe encontrarse con B en un parque, entre las 
+21:15 y 22:45, y entregarle unos documentos. 
+En el metro a las 20:15, A deberá cerciorarse de que no esté siendo seguido.
+
+Aquí las órdenes se abren en dos posibilidades:
+Si está siendo seguido, tratará de perder a su seguidor y volverá a evaluar
+su situación cada 15'. Si logra perderlo continuará con sus órdenes tomando
+el metro hacia el parque.
+Si no lo logra hará una llamada telefónica desde una cabina pública a un
+número preacordado, desde donde le darán más instrucciones.
+
+El número al que llama podría corresponder a una casa segura, donde un 
+agente cumpliendo órdenes similares a las de A, podría transmitirle el 
+siguiente set de instrucciones para su caso particular (es decir, está 
+siendo seguido, no puede perder a su seguidor y no puede completar su 
+misión en el parque). 
+
+O el agente en la casa segura podría tener instrucciones de comunicarse 
+a su vez con otro agente y recibir de este instrucciones para 
+retransmitirlas al espía A. 
+
+O podría tratarse de una locación donde se encuentra el personaje que
+representamos en el juego. En este caso, la noticia de la llamada del
+espía A nos llegaría directamente y podríamos crear en el momento un
+set de instrucciones o transmitir intrucciones hechas anteriormente.
+
+Nótese que si A lograra deshacerse de su perseguidor y tomar el metro,
+la hora en que llegaría a la estación B y al parque ya no son exactas,
+sino que son un rango horario. Esto es porque la órden de perder la
+vigilancia podría haberse cumplido en cualquier momento entre las 21:15
+y las 21:30.
+
+El siguiente elemento importante en el ejemplo del agente A es la llamada
+al procedimiento 'delivery'.
+
+Los procedimientos son instrucciones suficientemente genéricas como 
+para poder ser reutilizadas. De modo que no tienen información de un 
+tiempo en particular en el que sucedería la accion, sino un tiempo 
+relativo al comienzo del procedimiento. Es decir, no 20:00h, sino T+15',
+por ejemplo.
+
+Por último, el procedimiento hace mención a una señal. El espía 
+buscará una señal en el lugar de encuentro. Dependiendo de si el lugar 
+fué marcado o no, esperará al AGENTE B o dejará el mismo una señal y 
+abortará la misión volviendo a su casa. 
+
+El significado de las señales depende enteramente del jugador. En éste 
+caso, las instrucciones del AGENTE B (que no voy a mostrar...) dicen que 
+esté en el parque a las 21:00 y si está siendo seguido, deje una 
+señal y continue hacia otro sitio. 
+
+Otra vez, el sentido y la utilidad de las señales depende por completo 
+del contexto y el uso que se les de en el juego. 
+
+En el ejemplo, el espía no cumple más de una instrucción en cada 
+sitio, pero podría ser diferente. Las instrucciones de menor duración 
+insumen 15', de modo que en una hora podría realizar 4 acciones 
+distintas, suponiendo que no es interferido por un agente rival. 
+En caso de encontrar oposición a una accion, el caso se resuelve de
+acuerdo a reglas que se ven más adelante.
+
+
+
+TOPOGRAFÍA
+----------
+La topografía puede representarse por un modelo de cajas:
+
+                 COUNTRY A                    COUNTRY B
+  +------------------------------------+   +-------------+
+  |               CITY X               |   |   CITY Z    |
+  | +--------------+  +--------------+ |   |             |
+  | |NEIGHBORHOOD 1|  |NEIGHBORHOOD 2| |   |             |
+  | |  +--------+  |  |  +-------+   | |   |  +-------+  |
+  | |  |PLACE #1|  |  |  |AIRPORT<------------>AIRPORT<------------>
+  | |  +--------+  |  |  +-------+   | |   |  +-------+  |
+  | |  +--------+  |  |  +--------+  | |   |             |
+  | |  |PLACE #2|  |  |  |PLACE #n|  | |   |             |
+  | |  +--------+  |  |  +--------+  | |   |             |
+  | |  +-------+   |  |  +-------+   | |   |  +-------+  |
+  | |  |TRAIN  +--------->TRAIN  +------------>TRAIN  |  |
+  | |  |STATION<---------+STATION<------------+STATION|  |
+  | |  +--^-+--+   |  |  +-------+   | |   |  +-------+  |
+  | +-----|-|------+  +--------------+ |   |             |
+  +-------|-|--------------------------+   |             |
+          | |                              |             |
+  +-------|-|--------------------------+   |             |
+  |       | |     CITY Y               |   |  +-------+  |
+  |    +--+-v--+            +-------+  |   |  |SEAPORT|  |
+  |    |TRAIN  |            |SEAPORT|  |   |  +-------+  |
+  |    |STATION|            +-------+  |   |             |
+  |    +-------+                       |   |             |
+  +------------------------------------+   +-------------+
+
+Los paises contienen ciudades que contienen barrios. Estos contienen
+locaciones (un teatro, un parque, el Kremlim, un aeropuerto...)
+Las locaciones comunmente tienen ubicaciones diferenciadas.
+
+	+--------------+   		    +--------------+
+	|OUTSIDE  HOUSE|   		    |OUTSIDE  HOUSE|
+	|  +--------+  |   		    |  +--------+  |
+	|  |ACCESS A|  |   		    |  |ACCESS A|  |
+	|  +--------+  |   		    |  +--------+  |
+	|  |        |  |   		    |  |        |  |
+	|  |HOUSE #1|  |   		    |  |HOUSE #2|  |
+	|  |        |  |   		    |  |        |  |
+	|  +--------+  |   		    |  +--------+  |
+	|  |ACCESS B|  |   		    +--------------+
+	|  +--------+  |
+	+--------------+
+                                +--------------------+
+	+---------------+  		    |OUTSIDE BRIDGE NORTH|
+	|OUTSIDE THEATRE|  		    +-----+--------+-----+
+	|  +---------+  |  		          |ACCESS A|
+	|  |ACCESS  A|  |  		          +--------+
+	|  +---------+  |  		          |        |
+	|  |         |  |  		          | BRIDGE |
+	|  | THEATRE |  |  		          |        |
+	|  |         |  |  		          +--------+
+	|  +---------+  |  		          |ACCESS B|
+	|  |ACCESS  B|  |  		    +-----+--------+-----+
+	|  +---------+  |  		    |OUTSIDE BRIDGE SOUTH|
+	+---------------+  		    +--------------------+
+							   
+
+Un edificio tiene un exterior inmediato, accesos y por supuesto un 
+interior. En un area urbana, el exterior del edificio estaría 
+representando la calle, comercios vecinos, casas aledañas, etc. 
+
+El interior de un edificio está subdivididos en niveles de acceso (AL) 
+separados por capas de seguridad (SL). 
+
+	A HOUSE                             A LEGAL COMMERCE
+	+----------------+------------+		+----------------+------------+
+	|LEVEL 0         |nobody      |     |LEVEL 1         |nobody      |
+	|OWNER|TENANT    |            |     |OWNER|MANAGER   |            |
+	|                |            |     |                |            |
+	|----------------+            |     |----------------+            |
+	|SECURITY LAYER 0|            |     |SECURITY LAYER 1|            |
+	|door->key       |            |     |door->key       |            |
+	+----------------+------------+     +----------------+------------+
+										|LEVEL 0         |staff: 5    |
+										|LOW LEVEL STAFF |security: 1 |
+	AN ILLEGAL BUSSINES                 |                |casuals:some|
+	BEHIND A LEGAL ONE                  |----------------+            |
+	+----------------+------------+     |SECURITY LAYER 0|            |
+	|LEVEL 2         |nobody      |     |door->key       |            |
+	|OWNER|MANAGER   |            |     |guard->known    |            |
+	|                |            |     +----------------+------------+
+	|----------------+            |
+	|SECURITY LAYER 2|            |     Cada nivel de acceso puede 
+	|door->key       |            |     representar muchas habitaciones
+	+----------------+------------+     y secciones de un edificio, 
+	|LEVEL 1         |staff: 5    |     fábrica, laboratorio, cuartel, 
+	|ILLEGAL STAFF   |security: 1 |     etc; pero mas importante, 
+	|                |casuals:none|     representan cuan pública o 
+	+----------------+            |     privada es un área determinada 
+	|SECURITY LAYER 1|            |     y a quienes está permitido 
+	|door->key       |            |     acceder y permanecer en ellas. 
+	|guard->known    |            |     
+	+----------------+------------+     En cada nivel pueden encontrarse
+	|LEVEL 0         |staff: 3    |     personas de interés, de las que
+	|LEGAL STAFF     |casuals:some|     se tiene (o no) datos y con las 
+	|                |            |     que es posible interactuar.
+	+----------------+            |     Estos son personal propio, de 
+	|SECURITY LAYER 0|            |     otras agencias y básicamente
+	|door->key       |            |     cualquier persona con la que
+	+----------------+------------+     necesite interactuarse en forma
+										individual.
+	personas de interés, de las 		
+	que pueden conocerse (o no) 		
+	datos personales y con las que 		
+	se puede interactuar. Además 		
+	en todas las locaciones y en 		
+	sus diferentes niveles puede 		
+	encontrarse grupos de personas		
+	de los cuales solo se muestran		
+	su cantidad.	
+
+	
+Los grupos están compuestos de personas anónimas sobre las que no se 
+tienen datos. En su mayoría forman el grupo 'casuals', pero tambien son
+'staff' (empleados), 'security' (personal de seguridad), etc.
+
+
+										
+	
+	
+	
+	                                    representadas solamente por la
+cantidad de ellas en el nivel y por el grupo al que pertenecen. Los grupos 
+	                                    son: + staff + security + 
+	                                    casual Los grupos representan 
+
+
+
+
+
+
+Los security layers (SL) consisten en personal de seguridad, sistemas y
+barreras físicas o una combinación de todas estas para restringir el
+acceso a su nivel correspondiente. Además incluyen de los requisitos de
+accesso a cada nivel. Ej: door->key, guard->authorization, keypad->code.
+
+
+
+
+
+
+
+
+
+31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+se corresponden necesariamente con habitaciones
+sino con areas de
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	A HOUSE                      		A LEGAL COMMERCE
+	+-----------------------------+		+-----------------------------+
+	|ACCESS LEVEL 0               |     |ACCESS LEVEL 2               |
+	|OWNER|TENANT                 |     |OWNER|MANAGER                |
+	|			                  |     |                             |
+	+-----------------------------+     +-----------------------------+
+	|SECURITY LAYER 0             |     |SECURITY LAYER 1             |
+	|door->key                    |     |door->key                    |
+	+-----------------------------+     +-----------------------------+
+	                                    |ACCESS LEVEL 1               |
+	                                    |LOW LEVEL STAFF              |
+	AN ILLEGAL BUSSINES                 |                             |
+	BEHIND A LEGAL ONE                  +-----------------------------+
+	+-----------------------------+     |SECURITY LAYER 0             |
+	|ACCESS LEVEL 2               |     |door->key                    |
+	|OWNER|MANAGER                |     |guard->known                 |
+	|                             |     +-----------------------------+
+	+-----------------------------+
+	|SECURITY LAYER 2             |
+	|door->key                    |
+	+-----------------------------+
+	|ACCESS LEVEL 1               |
+	|ILLEGAL STAFF                |
+	|	                          |
+	+-----------------------------+
+	|SECURITY LAYER 1             |
+	|door->key                    |
+	|guard->known                 |
+	+-----------------------------+
+	|ACCESS LEVEL 0               |
+	|LEGAL STAFF                  |
+	|	                          |
+	+-----------------------------+
+	|SECURITY LAYER 0             |
+	|door->key                    |
+	+-----------------------------+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+Los personajes tanto NPC (non player character) como PCC (player
+controlled character) se encuentran siempre en 
+
+
+
+
+
+
+
+
++-------------+    +-------------+
+|OUTSIDE HOUSE|    |OUTSIDE HOUSE|
+|  +-------+  |    |  +-------+  |
+|  |HOUSE#1|  |    |  |HOUSE#2|  |
+|  +-------+  |    |  +-------+  |
+|             |    |             |
++-------------+    +-------------+
+
++-------------+    +----+
+|   OUTSIDE   |    |PARK|
+|   THEATRE   |    +----+
+|  +-------+  |
+|  |THEATRE|  |
+|  +-------+  |
++-------------+
+
+
+
+
+
++-------------+
+|OUTSIDE HOUSE|
+|  +-------+  |
+|  |HOUSE#1|  |
+|  +-------+  |
+|             |
++-------------+
+
+
+
+                NEIGHBORHOOD
+
+
+                           HOUSE#2
+
+
+                PARK       THEATRE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+	GAME ELEMENTS
+------------------------------------------------------------------------
+
+
+PEOPLE
+------
+Hay x tipos de personajes:
+
+Representados genéricamente, sin detalles particulares, solo por su
+cantidad en un determinado lugar.
+
+a) Casuals: observadores casuales, transeuntes, no-participantes de una
+operación, presentes en un area determinada.
+b)
+
+
+
+
+Cada país tiene instituciones, representadas como edificios, que producen
+información
+
+
+Each country has institutions,represented as buildings, that produce
+secret information represented generically as documents.
+
+The goal is to steal secrets from rival countries and prevent them from
+stealing our own documents.
+
+A secret, in order to be considered acquired by a country, must reach
+its intelligence agency building.
+
+Certain institutions produce information. Once produced this information
+if available in the institution and to the building staff
+
+Documents can be:
+	taken/carried/given by any person
+	copied/microfilmed (if necesary tools are available)
+	destroyed,
+	hidden,
+	bought/sold (from/to any person)
+
+
+SCIENTIST
+theory/discover (lab)
+
+ENGINEER
+develop application (lab)
+produce (factory)
+
+ACCESS LEVEL
+------------
+Las instituciones producen información, de un modo u otro útil a los
+paises rivales, por lo que es conveniente asegurarla.
+Las instituciones y edificios pueden tener un máximo de 4 access levels
+y security layers numerados de 0 a 3.
+
+Los access levels (AL) representan el concepto de compartimentación
+dentro de una organización. Además restringe el acceso a los objetos y
+personas que pudiera haber en un edificio.
+
+Los security layers (SL) consisten en personal de seguridad, sistemas y
+barreras físicas o una combinación de todas estas para restringir el
+acceso a su nivel correspondiente. Además incluyen de los requisitos de
+accesso a cada nivel. Ej: door->key, guard->authorization, keypad->code.
+
+Una persona que entra ilegalmente a un edificio porque superó los
+security layers o es meramente un visitante tiene acceso a los objetos y
+personas que hubiera en el nivel donde está y los inferiores, pero no a
+la información que maneja una persona que trabaja o habita regularmente
+en el edificio.
+
+Los edificios varían en la cantidad de niveles de acceso que tienen.
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+------------------------------------------------------------------------
+	SAMPLE GAMEPLAY
+------------------------------------------------------------------------
+
+KARL es un científico de Alemania del oeste que trabaja en el
+desarrollo de un nuevo tipo de equipo de comunicación y además dicta
+clases en la universidad. Su trabajo le permite AL1 en el laboratorio 
+y AL0 en la universidad.
+
+Los diagramas de la estructura del laboratorio y la universidad son los
+siguientes:
+
+	LAB                          UNIVERSITY
+	+---------------------+      +---------------------+
+	|ACCESS LEVEL 3       |      |ACCESS LEVEL 2       |
+	|                     |      |                     |
+	|DIRECTOR             |      |DIRECTOR             |
+	|Any	              |      |Any	               |
+	+---------------------+      +---------------------+
+	|SECURITY LAYER 3     |      |SECURITY LAYER 2     |
+	|bodyguards->X        |      |door->key            |
+    |guard->id            |      +---------------------+
+    |door->key            |      |ACCESS LEVEL 1       |
+	+---------------------+      |ADMINISTRATION       |
+	|ACCESS LEVEL 2       |      |HEAD OF STAFF        |
+	|                     |      |Scientist            |
+	|HEAD OF STAFF        |      +---------------------+
+	|Scientist            |      |SECURITY LAYER 1     |
+	+---------------------+      |door->key            |
+	|SECURITY LAYER 2     |      +---------------------+
+	|guard->id            |      |ACCESS LEVEL 0       |
+    |door->keycode        |      |                     |
+	+---------------------+      |PROFFESORS		   |
+	|ACCESS LEVEL 1       |  	 |scientists           |
+	|                     |      |students             |
+	|HIGH LEVEL STAFF     |      +---------------------+
+	|Scientists           |      |SECURITY LAYER 0     |
+	+---------------------+      |guard->known->id     |
+	|SECURITY LAYER 1     |      |door->key            |
+	|guard->pass          |      +---------------------+
+	|door->key            |
+	+---------------------+
+	|ACCESS LEVEL 0       |
+	|                     |
+	|LOW LEVEL STAFF      |
+	|technicians          |
+	|mainteance           |
+	+---------------------+
+	|SECURITY LAYER 0     |
+	|guard->known->id     |
+	|door->key            |
+    +---------------------+
+
+Y su rutina es la que sigue:
+
+	                +----+
+           +------->|HOME|
+           |        +--+-+
+        +--+---+       |
+        |DINER |       |
+        |CAFE  |       v
+        |PARK  |    +------+
+        |SHOP  |    |WORK  |
+        |BAR   |    |AT LAB|
+        |CINEMA|    +--+---+
+        +------+       |
+           ^           |
+           |           v
+           |        +------+
+           |        |DINER |
+           |        |CAFE  |
+           |        |PARK  |
+    +------+---+    |SHOP  |
+    |WORK AT   |<---+BAR   |
+    |UNIVERSITY|    |CINEMA|
+    +----------+    +------+
+
+Del diagrama se desprende que KARL tiene contacto con los estudiantes y
+profesores de la universidad, los habitué de los sitios que frecuenta
+entre sus obligaciones y naturalmente su círculo de amigos.
+
+Si la KGB quisiera reclutar a KARL o sencillamente ganar su confianza y
+obtener discretamente información por medio de conversaciones casuales,
+podría hacerlo con relativa facilidad por medio de HANS, un estudiante
+reclutado anteriormente.
+
+También podría abordarlo en sus salidas o indirectamente haciendo
+amistad con un miembro de su círculo de amigos esperando la oportunidad
+de ser presentados.
+
+KARL todavía pasa inadvertido para la KGB, pero como medida de
+seguridad la CIA quiere limitar las posibilidades de ser contactado
+mientras trabaja en el equipo de comunicación. Por lo que tramita una 
+licencia con la dirección de la Universidad.
+
+Si bien el motivo de la licencia es conocido solamente en el nivel 2,
+que ocupa exclusivamente el director, la información de que KARL se
+ausentará por tiempo indeterminado está disponible para toda persona
+con AL0 dentro de la Universidad, lo que incluye a los estudiantes y por
+lo tanto tambien a HANS.
+
+Luego HANS se encuentra con IVAN, su controlador, según la rutina que
+tienen previamente acordada y le comunica la información que pudo
+recavar desde el último encuentro.
+
+La licencia de KARL puede deberse a muchos motivos, pero IVAN decide
+seguir la pista de este movimiento, con la esperanza de que lleve a
+algún descubrimiento útil.
+
+La KGB no tiene ninguna información sobre KARL, excepto el hecho
+de que trabajaba en la Universidad. De modo que HANS recibe de IVAN la
+tarea de averiguar si KARL tiene amistades dentro y tratar de obtener lo
+que pueda sobre él.
+
+En el siguiente encuentro con HANS, IVAN recibe el nombre de dos
+personas que tienen amistad con KARL.
+En este momento IVAN considera dos opciones:
+
+a) Mandar a seguir a estos nuevos personajes para conocer la red de
+relaciones de KARL, esperando que en algún momento se encuentren y
+recuperar así su rastro.
+
+b) Acceder a los archivos de la Universidad y obtener el domicilio de
+KARL para comenzar una vigilancia sobre él.
+
+Acceder a los archivos, que están en el AL1 sería factible, ya que
+HANS tiene acceso al nivel inmediato inferior (AL0) y el SL1 consiste
+solamente en una puerta cerrada con llave durante la noche.
+
+Durante el día el flujo de personas en el nivel es bastante alto, de
+modo que la copia del legajo de KARL podría pasar desapercibida.
+
+Por otro lado el intento tiene cierto riesgo de fallar, sobre todo por
+la poca experiencia de HANS, y recordemos que IVAN no tiene un motivo
+sólido para concentrar su atención sobre KARL, solo está siguiendo una
+posibilidad.
+
+Seguir a las dos personas relacionadas con KARL es mucho más seguro y
+podrían surgir datos de interés inesperados sobre estos dos personajes,
+pero es un procedimiento mucho más lento e insume más personal; una o 
+dos personas asignadas a seguir a cada hombre.
+
+IVAN prefiere no arriesgar al único recurso que tiene dentro de la
+institución sin un buen motivo, por lo que asigna a dos agentes la
+tarea de seguir a ENRICH y otros dos para FRIEDRICH.
+
+Al ser dos agentes, estos se relevan en la vigilancia y el riesgo de
+llamar la atención del objetivo es mucho menor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Each player choose to work for the intelligence agency of one of the
+following countries:
+
++ UNITED STATES
+	CIA (Central Intelligence Agency)
++ URSS
+	KGB (Комит́ет госуд́арственной безоп́асност)
++ GERMANY
+	STASI (Staatssicherheit)
++ UNITED KINGDOM
+	MI6 (Military Intelligence, Section 6)
++ FRANCE
+	SDECE (Service de Documentation Extérieure et de Contre-Espionnage)
+
+The player starts (and problably remains) somewhere in the middle of the
+command chain as Station Chief in Berlin or head of an hypotetical
+intelligence section in the year 1950.
+
+
+
+
+
+------------------------------------------------------------------------
+	GLOSARY
+------------------------------------------------------------------------
+
+ACTION OFFICER - The case officer designated to perform an operational
+act during a clandestine operation, especially in hostile territory.
+
+AGENT - A person, usually a foreign national, who has been recruited by
+a staff case officer from an intelligence service to perform clandestine
+missions.
+
+AGENT-IN-PLACE - An agent serving as a penetration into an intelligence
+target who has been recruited or has volunteered to stay in place.
+
+AMBUSH - The surprise capture and arrest of a case officer in an act of
+espionage by an opposing counterintelligence or security service.
+
+(THE) APPENDIX - The tower in Lubyanka that houses the KGB's most
+sensitive departments. It is a nine-story tower that connects the old
+and new wings of the building and overlooks an inner courtyard.
+
+ASSET - A clandestine source or method, usually an agent.
+
+BAILOUT POINT - The point, during a vehicular run under surveillance, at
+which the action officer riding as a passenger is planning to bail out
+of the car in order to elude surveillance.
+
+BANG AND BURN - Demolition and sabotage operations.
+
+BIGOT- list A list of the names of all persons who are privy to the
+plans for a sensitive intelligence operation; it dates back to World War
+II when Allied orders for officers were stamped TO GIB for those being
+sent to Gibraltar for preparations for the invasion of North Africa;
+later their orders were stamped BIG OT (TO GIB backwards) when they were
+sent back to begin planning Operation Overlord, the invasion of
+Normandy.
+
+BLACK BAG JOB - A surreptitious entry operation usually conducted by the
+FBI against a domestically located foreign intelligence target.
+
+BLACK OPERATIONS - Clandestine or covert operations not attributable to
+the organization carrying them out.
+
+BONA FIDES - An operative's true identity, affiliation, or intentions.
+
+BRIDGE AGENT - An agent who acts as a courier or go-between from a case
+officer to an agent in a denied area.
+
+BRIEF ENCOUNTER - Any brief physical contact between a case officer and
+an agent under threat of surveillance.
+
+BRUSH PASS - A brief encounter where something is passed between a case
+officer and an agent.
+
+BUMPER-LOCK - A harassing move in which vehicular surveillance follows
+the target officer so closely that the surveilling car's front bumper is
+ almost locked to the rear bumper of the target car.
+
+BURNED - When a case officer or agent is compromised, or a surveillant
+has been made by a target, usually because they make eye contact.
+
+BUST-OUT - A leak of electronic communications from a secure enclosure
+before they are encrypted by the code machine.
+
+CAM-CAR - A vehicle equipped with a concealed camera used for
+clandestine casing and surveillance operations.
+
+(THE) CAMP (ALSO CAMP SWAMPY) - A nickname for the CIA's secret domestic
+training base.
+
+CASE OFFICER - An operations officer serving as an official staffer of
+an intelligence service.
+
+CASUALS - Casual observers to a surveillance exercise; nonparticipants
+visible in the area.
+
+(THE) CELLAR - The room in the cellar of Lubyanka Prison where Russian
+intelligence executed traitors prior to WWII.
+
+(THE) CENTER - Russian intelligence headquarters in Moscow.
+
+CHEKA - Russian secret police founded in 1917 to serve the Bolshevik
+Party; one of the many forerunners of the KGB.
+
+CHOKADAR - A gatekeeper commonly used in the Asian Subcontinent for
+guarding the entrances to walled compounds.
+
+CHOKEPOINT - A narrow passage-such as a bridge, tunnel, or Metro
+station-used as a surveillance or countersurveillance tool for
+channeling the opposing force or monitoring their passage.
+
+CIA - The Central Intelligence Agency of the United States, formed in
+1947 to conduct foreign intelligence collection, covert action, and
+counterintelligence operations abroad. Also responsible for providing
+finished intelligence to U.S. policymakers.
+
+CID - The Clandestine Imaging Division of the Office of Technical
+Service of the CIA. Responsible for providing technical support to
+clandestine agent operations in the form of photography, secret writing,
+and video surveillance.
+
+(THE) CITADEL - A supersecret department in U.S. intelligence
+responsible for collecting foreign signals and communications
+intelligence.
+
+CLANDESTINE operation - An intelligence operation designed to remain
+secret as long as possible.
+
+CLANDESTINE SERVICE - The operational arm of the CIA responsible for
+classic espionage operations, usually with human assets. Also known as
+the Directorate of Operations (DO) and formerly the Directorate of Plans
+(DP).
+
+CLOAK - A sensitive disguise and deception illusionary technique first
+deployed by the CIA in Moscow during the mid-1970s.
+
+CODE - A system used to obscure a message by use of a cipher, mark,
+symbol, sound, innocuous verse, or piece of music. ("Two lanterns in the
+church tower . . .")
+
+COMINT - Communications intelligence, usually gathered by technical
+interception and code breaking, but also by use of human agents and
+surreptitious entry.
+
+COMMO, COMMUNICATIONS - The various forms of secure electronic and
+nonelectronic communications used in clandestine operations.
+
+COMMO PLAN - The various secret communications methods employed with a
+particular agent.
+
+COMPARTMENTING: vertical; lateral; double - The various ways that
+information is held to only those who "have-a-need-to-know" in an
+organization. Vertical denies information up or down the chain of
+command, and lateral denies information from peer groups. Double is
+spoofing the original group who held the information into believing the
+operation has ended when it has simply moved to a new compartment.
+
+COMPROMISED - When an operation, asset, or agent is uncovered and cannot
+remain secret.
+
+CONCEALMENT DEVICE - Any one of a variety of innocuous devices used to
+secretly store and transport materials relating to an operation.
+
+CONTROL - In a surveillance exercise, the one directing the team
+remotely, usually by electronic communications.
+
+CONTROLLER - Often used interchangeably with handler, but usually means
+a hostile force is involved-that is, the agent has come under control of
+the opposition.
+
+COVER STOP - A stop made while under surveillance that provides an
+ostensibly innocent reason for a trip.
+
+COVERT ACTION OPERATION (CA) - An operation kept secret for only a
+finite period of time, or an operation whose real source remains secret
+because the operation is attributed to another source.
+
+CRYPTONYM - Code name; crypt or crypto for short, always capitalized. GT
+and CK prefixes to code names are used to identify the nature of the
+clandestine source. These two prefixes were both "diagraph" identifiers
+for the Soviet and East European program during this period. The
+diagraph is used in front of the cryptonym of the source as a more
+formal way of referring to the subject, not unlike putting "Mr." in
+front of "Smallwood."
+
+CUTOUT - A mechanism or person that acts as a compartment between the
+members of an operation but which allows them to pass material or
+messages securely.
+
+DAGGER - A sophisticated disguise first used in the Soviet Union in the
+1970s.
+
+DANGLE OPERATION - An operation in which an enticing intelligence target
+is dangled in front of an opposition service in hopes they will think
+him or her a bona fide recruit. The dangle is really a double agent.
+
+DCI - The Director of Central Intelligence.
+
+DDO - The Deputy Director of Operations of the CIA, and head of all
+HUMINT operations; formerly the DDP.
+
+DDP - The Deputy Director of Plans (see DDO).
+
+DEAD DROP - A secret location where materials can be left in concealment
+for another party to retrieve. This eliminates the need for direct
+contact in hostile situations.

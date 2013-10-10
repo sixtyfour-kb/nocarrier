@@ -1,0 +1,233 @@
+EL OBJETIVO:
+
+	Cada país tiene x cantidad de areas que representan su poder:
+		MILITAR	
+			A - Naval
+			B - Aéreo
+			C - Terrestre
+			D - Nuclear
+			F - Radares
+		DESARROLLO CIENTIFICO/TECNICO
+			G - Militar
+			H - Comunicaciones
+			I - Produccion (Capacidad de producir bienes de consumo, militar, etc)
+			J - Carrera espacial
+		POLITICO
+			L - Imagen exterior
+			M - Apoyo de la población
+			N - Predominio de una tendencia u otra (Capitalismo vs Comunismo)
+	
+	Cada una de estas áreas se representa numericamente, con una barra, etc.
+	Lo importante de estos scores es la diferencia con el score del contrario:
+	Ej: si los yankees tienen 100 en Comunicaciones y los sovieticos 101, entonces USA esta -1 y URSS +1
+	El score aumenta con cada entrega de un secreto de otro país.
+	Como el score calcula la diferencia de puntajes, cuando un país gana un punto, algún otro país lo está perdiendo.
+	
+	SECRETOS DE ESTADO:
+	
+	Estan divididos en las mismas areas que el score. Hay informacion 
+	militar(naval)
+	militar(aerea)
+	tecnica(comunicaciones)
+	tecnica(espacial)
+	etc...
+	Cada secreto ganado suma al area correspondiente. Cada secreto propio perdido se resta.
+	Los secretos de estado no están detallados. Pueden ser como valijitas de colores que se llevan y se traen :)
+	
+	EL SCORE MILITAR:
+	
+	Representa el poder militar del país: cantidad de misiles nucleares, submarinos, etc.	
+	En el mapa general (de Europa) cada país tiene ubicadas una cantidad de unidades de cada tipo (Naval, Aéreo, etc) y que los demás no conocen.
+	Digamos que sean 5 unidades de cada tipo. Cada unidad que permanece secreta vale 10 puntos, por ejemplo.
+	Entonces todos los países empiezan con 50 puntos en el area militar. Como están parejas tienen un score efectivo de 0.
+	Cuando un agente logra entregar un secreto militar de otro país, se descubre la ubicación de esa unidad y se le resta al score.
+	
+	Una diferencia positiva en score militar influye positivamente en el score político (Imagen exterior e interior, por ejemplo).
+	Si la diferencia se hace grande, en cada turno se tiran dados (el programa calcula una tirada) y existe la posibilidad de que empiece la guerra.
+	Si hay guerra pierden todos y GAME OVER.
+	Al principio, la posibilidad es casi nula. Si el desbalance en el score militar se hace muy grande las probabilidades aumentan hasta que sea casi seguro que haya guerra.
+	
+	Los jugadores pueden elegir entregar la informacion de algunas unidades para achicar la diferencia y reducir la chance de guerra.
+	
+	EL SCORE CIENTIFICO / TECNICO:
+	
+	Representa el nivel tecnológico y científico del país.
+	Un score positivo en comunicaciones permite mejores equipos de vigilancia y espionaje
+	Un score positivo en el area espacial suma al prestigio en el area política
+	Un score positivo en produccion suma al apoyo de la poblacion y agrega unidades militares secretas en el mapa.
+	Etc...	
+	
+	EL SCORE POLITICO:
+	Representa el dominio del país en la política exterior.
+	Una diferencia total positiva de X puntos en el area política de un país sobre otro, le da al primero la posesión de toda su información y lo convierte a su sistema político.
+	
+	El objetivo del juego, entonces es lograr una diferencia política positiva X sobre el bloque contrario y ser el primero entre los países aliados.
+	
+	Un país puede entregar voluntariamente secretos de cualquier tipo a cualquier otro país.
+	
+LAS INTITUCIONES:
+
+	Cada país tiene en su territorio edificios de las siguientes instituciones:
+	
+	LOCACIONES ESPECIALES:
+	Puntos de entrada al territorio, como los aeropuertos, los puertos o los puestos de control del muro de berlin.
+	Tienen personal de seguridad. Funcionan como informantes en el sentido de que reconocen personas sobre las cuales se les dio información.
+	Adicionalmente puede instruirseles para que detengan a X persona o alerten cuando cruza su puesto.
+	En estos puntos queda registrados los datos de identidad de las personas que pasan.
+	Serían listas con muchas identidades aleatorias y entre ellas el registro real de agentes que pasan por ahí.
+	Sirven para saber si un personaje específico pasó por ahí.
+	
+	+ Fabricas (militares, bienes de consumo, etc)
+	+ Centros de investigacion (comunicaciones, atómica, militar, etc)
+	+ Agencia de inteligencia (KGB, CIA, MI5, STASSI, DSGE, etc)
+	+ Embajada de cada país contrario.	
+
+	En estos edificios se produce cada x cantidad de turnos un avance que equivale a x cantidad de puntos que se suman al score del area correspondiente.
+	Estos avances son secretos que los demás países pueden intentar obtener.
+	El modo de obtenerlos es infiltrando informantes en estas instituciones.
+	
+	Cada una de estas intituciones tiene una cantidad de personal con diferentes niveles de importancia y necesita de todo su personal para producir avances.
+	Si no tiene su personal completo, tardará mas turnos en producirlos.
+	Cada tanto, aleatoriamente, se dan bajas en el personal (por cualquier tipo de motivo). Tambien pueden ser eliminados por un agente contrario.
+	El personal para trabajar en estas instituciones sale de una lista de personas con un conocimiento en esa area.
+	Para infiltrar agentes en una institucion se suman a esa lista de postulantes.
+	Cuando hay una baja, la institución toma una persona de la lista automáticamente.
+	Si hay un oficial de inteligencia propio en esa institución (o dirigiendola), el jugador puede seleccionar el reemplazo de la lista.
+	
+	Un informante infiltrado en la institución puede subir por grados y llegar a dirigirla. Desempeñará su trabajo normalmente,
+	producirá lo mismo que un empleado leal, pero obtiene mas información o mas valiosa y a cambio de descubrirse puede sabotear la institucion
+	e inutilizarla por x turnos.
+	
+LA AGENCIA
+	
+	Esta dividida en departamentos de:
+	+ Fichaje (donde se tiene la información de los personajes que conoce la agencia)
+	+ Criptoanálisis (donde se analizan los mensajes cifrados y se trata de romper el código)
+	+ Tesoro (donde está la información de que recursos tiene la agencia, que compra, etc)
+	+ Archivo (donde queda una copia de todas las ordenes que se pasan a los agentes)
+	+ Interrogatorios (donde queda que información entregaron los agentes que cambiaron de bando o fueron capturados)
+	+ Seguridad (encargado las tareas de contra-espionage dentro de la agencia. Intentan encontrar infiltrados dentro.)
+	+ Documentacion (crea nuevas identidades con documentación para los agentes)
+	
+LAS FABRICAS
+	De diferentes tipos Militar, Comunicaciones, Espacial, etc.
+	Un infiltrado en una fabrica, en el nivel mas bajo puede obtener solamente la información de que existe un avance en determinada area.
+	En el nivel mas alto puede obtener el secreto tecnologico.
+	
+	LAS DEMAS INSTITUCIONES están divididas en x cantidad de niveles. digamos no mas de 5. Cuanto mas alto el nivel mas información se maneja.
+	
+	Cada institución tiene alguna característica particular, pero todavia no lo pensé bien.
+	
+LOS TURNOS:
+	El día esta dividido en 3 (mañana, tarde y noche)
+	A su vez los 3 turnos están subdivididos en 4 sub-turnos de 2 horas.
+	En un sub-turno de 2 horas un agente puede desplazarse a cualquier barrio dentro de la ciudad y ejecutar una acción.
+	Todos los agentes pueden cumplir tareas solo 2 turnos en un dia.
+	Si le damos tareas para los 3 turnos del dia, al día siguiente no estará disponible.
+	
+	Los agentes reciben ordenes por adelantado. Se los programa para los turnos siguientes.
+	
+LAS ORDENES	
+	Tienen forma de calendario de la semana y en cada turno de cada día se ubican diferentes acciones en diferentes lugares.
+	Las ordenes de las acciones tienen los detalles de que accion tiene que cumplir y que medidas debe tomar en caso de que falle o lo sigan, etc.
+	Además estarían encriptadas.
+	
+LA COMUNICACION
+
+	Los medios para transmitir la información que obtienen los agentes son:
+	+ De persona a persona
+	+ Por radio o télex
+	+ Por teléfono
+	
+	Los teléfonos del territorio propio pueden intervenirse con un solo click, sin que el rival lo sepa.
+	Cuando un rival se comunica por un teléfono intervenido dentro de nuestro territorio, la información llega a las oficinas de la agencia.
+	
+	Las comunicaciones por radio se pueden interceptar ubicando una estación de radio propia dentro del radio de emisión de la estación rival.
+	
+	Las comunicaciones por telex se pueden pinchar habiendo obtenido los planos del tendido de cables por algún medio (por un espía encubierto en la agencia rival, por ejemplo)
+	
+	Los mensajes transmitidos por estos medios estan encriptados.
+	A lo largo del juego van apareciendo diferentes sistemas de encriptación (como avances en el area tecnica(comunicaciones), por ejemplo)
+	Se puede elegir el sistema de encriptacion de los mensajes.
+	Cuando se hace disponible un sistema de encriptación nuevo deben pasar x cantidad de turnos hasta que pueda ser utilizado.
+	(lo que representa el tiempo de reestructuración burocrática del asunto)
+	Si una agencia intercepta comunicaciones u órdenes de otra agencia, debe conocer el código para descifrarlas o enviar esta información
+	al edificio de la agencia para descifrar el encriptado.
+	Se puede utilizar código que se sabe ya fué roto para enviar información falsa.
+
+	Los secretos de estado se transmiten solo de persona a persona (representan documentos, aparatos, etc)
+	
+	Ejemplo: 
+	Mandamos por telex a una estación de radio en un país contrario para el agente A.
+	Si el agente A tenía programado pasar por esa estación digamos, dos días despues, en ese momento recibirá las ordenes y comenzará a cumplirlas.
+	Si no estaba programado que pase por esa estación, se puede enviar las ordenes con la orden al operador de la estación de que convoque al agente a recibir las ordenes
+	en un día y horas específicas. Este lo convocaría por teléfono o telegrama.
+	Se puede tener un agente siempre en la estación de radio para que funcione como mensajero.
+	
+LA IDENTIDAD
+	Los personajes tienen una identidad que consta de:
+	Su imagen, que puede ser fotografiada.
+	Su nombre, nacionalidad, sexo, edad, etc que queda registrada en los hoteles, los aeropuertos, los puestos de control de la frontera y las instituciones.
+	
+LOS AGENTES:
+	+ Los agentes son invisibles para la agencia rival, a menos que ésta lo haya identificado.
+	
+	+ Todos los agentes guardan la información de las personas que conocen 
+	(y solo de las que conocen por experiencia o se les hizo conocer dandoles uno la información) y , excepto los informantes, pueden obtener secretos de estado.
+	
+	+ Todos los agentes pueden ser comprados o reclutados por el otro bando. Algunos son mas difíciles (casi imposibles). Otros son muy fáciles de cambiar de bando.
+	
+	+ Algunos agentes tienen secretos personales que son desconocidos para todos. Se pueden descubrir investigando al personaje. Debería ser dificil descubrirlos.
+	
+	+ Estos secretos, si se conocen, pueden ser usados para hacer trabajar al agente para nuestro lado.
+	
+	+ La información que posee un agente debe ser entregada por algun medio a la agencia de inteligencia para que se contabilice como score.
+	
+	+ La informacion puede pasar de mano en mano entre muchos agentes.
+	
+	+ Para que un agente reconozca a otra persona debe tener información de esa persona (una foto, por ejemplo)
+	
+	+ Cuando un agente es "agente doble", el país contrario lo controla en el tiempo libre en el que nosotros no lo controlamos.
+		La agencia rival puede contactarlo con otro agente y extraer información o darles ordenes de la misma forma que nosotros.
+	
+	+ Todos los agentes, incluso los informantes, tienen un background especifico. Un area de conocimiento que representa a que se dedican en su vida civil, o
+	en que area se especializaron para infiltrarse.
+	Las areas de conocimiento son Militar, Científica, Política... igual que las instituciones. Se puede compartimentar más todavía.
+	Para infiltrar un agente en alguna institución tiene que tener el background correspondiente.	
+
+	INFORMANTE NIVEL 1:
+	La categoría más baja de espía.
+	Son ciudadanos comunes que espían en su propio país para un país rival.
+	Se los recluta en barrio específico y controlan solamente ese barrio.	
+	Si se les pasa información sobre personas son capaces de reconocerlas cuando estas se detienen en su area.
+	Cada vez que consiguen información suman experiencia.
+	Cuando logran cierto XP uno puede subirlos de nivel a agente o a informante nivel 2.
+	
+	INFORMANTE NIVEL 2:
+	Pueden postularse para trabajar en una institución de acuerdo a su area de conocimiento.
+	Pueden extraer información de su lugar de trabajo o secretos de estado segun el nivel en la institución.
+	Pueden reconocer a personas dispuestas a espiar para nuestro lado. Posibles nuevos informantes.
+	Pueden instruirseles que se encuentren regularmente con un agente o que entrege la información en un lugar definido cuando la tenga.
+	Cuando logran cierto XP uno puede subirlos de nivel a agente o ubicarlos en un puesto mas importante dentro de su institución.
+	
+	AGENTE:
+	Al convertirse a agente sale del juego por x turnos, que representan un período de adiestramiento militar.
+	Trabajan para la agencia, y reciben ordenes normalmente.
+	Deben tener un domicilio. Puede un lugar proporcionado por la agencia o un hotel.
+	Puede cambiar de domicilios u hoteles, pero siempre debe tener un lugar definido donde terminará el turno.
+	
+	AGENTE ESPECIALISTA:
+	Al convertirse a agente sale del juego por x turnos, que representan un período de adiestramiento militar.
+	Trabajan para la agencia, pueden realizar tareas como montar una estación de comunicación.
+	
+EL MAPA:
+	Reduciendo la cosa, por ahora, a una sola ciudad, tomemos Berlin como ejemplo, porque estaba dividida en secciones controladas
+	por USA, INGLATERRA, URSS, FRANCIA. Cada jugador maneja un país de estos. 
+	
+	El mapa está dividido por país, ciudades y barrios.
+	Hay puntos especiales, como la frontera, los aeropuertos o los puntos de seguridad del muro de Berlin.	
+	
+	En cada barrio puede haber:
+		Edificios de instituciones importantes.
+		Informantes.
+		Agentes realizando alguna accion.

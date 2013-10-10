@@ -1,0 +1,103 @@
+ACTION OFFICER - The case officer designated to perform an operational act during a clandestine operation, especially in hostile territory.
+
+AGENT - A person, usually a foreign national, who has been recruited by a staff case officer from an intelligence service to perform clandestine missions.
+
+AGENT-IN-PLACE - An agent serving as a penetration into an intelligence target who has been recruited or has volunteered to stay in place.
+
+AMBUSH - The surprise capture and arrest of a case officer in an act of espionage by an opposing counterintelligence or security service.
+
+(THE) APPENDIX - The tower in Lubyanka that houses the KGB's most sensitive departments. It is a nine-story tower that connects the old and new wings of the building and overlooks an inner courtyard.
+
+ASSET - A clandestine source or method, usually an agent.
+
+BAILOUT POINT - The point, during a vehicular run under surveillance, at which the action officer riding as a passenger is planning to bail out of the car in order to elude surveillance.
+
+BANG AND BURN - Demolition and sabotage operations.
+
+BIGOT- list A list of the names of all persons who are privy to the plans for a sensitive intelligence operation; it dates back to World War II when Allied orders for officers were stamped TO GIB for those being sent to Gibraltar for preparations for the invasion of North Africa; later their orders were stamped BIG OT (TO GIB backwards) when they were sent back to begin planning Operation Overlord, the invasion of Normandy.
+
+BLACK BAG JOB - A surreptitious entry operation usually conducted by the FBI against a domestically located foreign intelligence target.
+
+BLACK OPERATIONS - Clandestine or covert operations not attributable to the organization carrying them out.
+
+BONA FIDES - An operative's true identity, affiliation, or intentions.
+
+BRIDGE AGENT - An agent who acts as a courier or go-between from a case officer to an agent in a denied area.
+
+BRIEF ENCOUNTER - Any brief physical contact between a case officer and an agent under threat of surveillance.
+
+BRUSH PASS - A brief encounter where something is passed between a case officer and an agent.
+
+BUMPER-LOCK - A harassing move in which vehicular surveillance follows the target officer so closely that the surveilling car's front bumper is almost locked to the rear bumper of the target car.
+
+BURNED - When a case officer or agent is compromised, or a surveillant has been made by a target, usually because they make eye contact.
+
+BUST-OUT - A leak of electronic communications from a secure enclosure before they are encrypted by the code machine.
+
+CAM-CAR - A vehicle equipped with a concealed camera used for clandestine casing and surveillance operations.
+
+(THE) CAMP (ALSO CAMP SWAMPY) - A nickname for the CIA's secret domestic training base.
+
+CASE OFFICER - An operations officer serving as an official staffer of an intelligence service.
+
+CASUALS - Casual observers to a surveillance exercise; nonparticipants visible in the area.
+
+(THE) CELLAR - The room in the cellar of Lubyanka Prison where Russian intelligence executed traitors prior to WWII.
+
+(THE) CENTER - Russian intelligence headquarters in Moscow.
+
+CHEKA - Russian secret police founded in 1917 to serve the Bolshevik Party; one of the many forerunners of the KGB.
+
+CHOKADAR - A gatekeeper commonly used in the Asian Subcontinent for guarding the entrances to walled compounds.
+
+CHOKEPOINT - A narrow passage-such as a bridge, tunnel, or Metro station-used as a surveillance or countersurveillance tool for channeling the opposing force or monitoring their passage.
+
+CIA - The Central Intelligence Agency of the United States, formed in 1947 to conduct foreign intelligence collection, covert action, and counterintelligence operations abroad. Also responsible for providing finished intelligence to U.S. policymakers.
+
+CID - The Clandestine Imaging Division of the Office of Technical Service of the CIA. Responsible for providing technical support to clandestine agent operations in the form of photography, secret writing, and video surveillance.
+
+(THE) CITADEL - A supersecret department in U.S. intelligence responsible for collecting foreign signals and communications intelligence.
+
+CLANDESTINE operation - An intelligence operation designed to remain secret as long as possible.
+
+CLANDESTINE SERVICE - The operational arm of the CIA responsible for classic espionage operations, usually with human assets. Also known as the Directorate of Operations (DO) and formerly the Directorate of Plans (DP).
+
+CLOAK - A sensitive disguise and deception illusionary technique first deployed by the CIA in Moscow during the mid-1970s.
+
+CODE - A system used to obscure a message by use of a cipher, mark, symbol, sound, innocuous verse, or piece of music. ("Two lanterns in the church tower . . .")
+
+COMINT - Communications intelligence, usually gathered by technical interception and code breaking, but also by use of human agents and surreptitious entry.
+
+COMMO, COMMUNICATIONS - The various forms of secure electronic and nonelectronic communications used in clandestine operations.
+
+COMMO PLAN - The various secret communications methods employed with a particular agent.
+
+COMPARTMENTING: vertical; lateral; double - The various ways that information is held to only those who "have-a-need-to-know" in an organization. Vertical denies information up or down the chain of command, and lateral denies information from peer groups. Double is spoofing the original group who held the information into believing the operation has ended when it has simply moved to a new compartment.
+
+COMPROMISED - When an operation, asset, or agent is uncovered and cannot remain secret.
+
+CONCEALMENT DEVICE - Any one of a variety of innocuous devices used to secretly store and transport materials relating to an operation.
+
+CONTROL - In a surveillance exercise, the one directing the team remotely, usually by electronic communications.
+
+CONTROLLER - Often used interchangeably with handler, but usually means a hostile force is involved-that is, the agent has come under control of the opposition.
+
+COVER STOP - A stop made while under surveillance that provides an ostensibly innocent reason for a trip.
+
+COVERT ACTION OPERATION (CA) - An operation kept secret for only a finite period of time, or an operation whose real source remains secret because the operation is attributed to another source.
+
+CRYPTONYM - Code name; crypt or crypto for short, always capitalized. GT and CK prefixes to code names are used to identify the nature of the clandestine source. These two prefixes were both "diagraph" identifiers for the Soviet and East European program during this period. The diagraph is used in front of the cryptonym of the source as a more formal way of referring to the subject, not unlike putting "Mr." in front of "Smallwood."
+
+CUTOUT - A mechanism or person that acts as a compartment between the members of an operation but which allows them to pass material or messages securely.
+
+DAGGER - A sophisticated disguise first used in the Soviet Union in the 1970s.
+
+DANGLE OPERATION - An operation in which an enticing intelligence target is dangled in front of an opposition service in hopes they will think him or her a bona fide recruit. The dangle is really a double agent.
+
+DCI - The Director of Central Intelligence.
+
+DDO - The Deputy Director of Operations of the CIA, and head of all HUMINT operations; formerly the DDP.
+
+DDP - The Deputy Director of Plans (see DDO).
+
+DEAD DROP - A secret location where materials can be left in concealment for another party to retrieve. This eliminates the need for direct contact in hostile situations.
